@@ -1,0 +1,32 @@
+# Topbar menu
+#
+# How to create a menu
+#
+# - title:  "your page title
+#   url:    "/page-link"
+# - title:  "an other page title"
+#   url:    "/an-other-page-link"
+#   submenu:
+#   - title:  "title for the dropdown menu item"
+#     url:    "/item-link"
+
+- title:  "Home"
+  url:    "/"
+- title:  "Blog"
+  url:    "/blog"
+- title:  "Projects"
+  url:    "#"
+  submenu:
+  - title: "Open Science Skills Training"
+    url: "/projects/open-science-skills-training"
+  - title: "Nanopublications"
+    url: "/projects/nanopublications"
+- title:  "People"
+  url:    "/people"
+- title:  "About"
+  url:    "#"
+  submenu:
+  - title: "About us"
+    url: "/about/about-us"
+  - title: "Governance"
+    url: "/about/governance"

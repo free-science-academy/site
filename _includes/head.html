@@ -1,0 +1,25 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="creator" content="Free Science Academy">
+
+  <!-- common social tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+        content="{{ "assets/INSERT FSA LOGO PATHWAY" | absolute_url }}">
+  <meta property="og:site_name" content="Free Science Academy">
+
+  <!-- document-specific social tags -->
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:description" content="{{ page.description }}">
+
+  <meta name="description" content="{{ page.description }}">
+
+  <title>
+    {% if page.title %}{{ page.title }} - {% endif %}
+    Free Science Academy
+  </title>
+  <link rel="stylesheet" href="{{ "assets/css/app.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "assets/css/font-osm.css" | relative_url }}">
+</head>

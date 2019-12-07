@@ -1,0 +1,21 @@
+# ---------------------------------------
+# Jekyll Development Configuration
+# ---------------------------------------
+
+# Website specific
+baseurl: ""
+url: ""
+
+# Jekyll specific
+environment: "dev"
+exclude:
+  - .bundle/
+  - vendor/
+  - .gitignore
+  - CONTRIBUTING.md
+  - Gemfile
+  - ADD ALL OTHER FILES HERE
+incremental: 1
+livereload: true
+sass:
+  style: expanded

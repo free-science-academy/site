@@ -1,0 +1,22 @@
+hero:
+  slogan: "SLOGAN"
+  button: ""
+
+help:
+  title: "Get involved with the FSA"
+  blocks:
+  - title: "ACTION ITEM"
+    text: "DESCRIPTION"
+    icon: icons/
+  - title: "ACTION ITEM"
+    text: "DESCRIPTION"
+    icon: icons/
+  - title: "ACTION ITEM"
+    text: "DESCRIPTION"
+    icon: icons/
+
+discover:
+  title: "Discover Our Projects"
+
+news:
+  title: "What's New?"
